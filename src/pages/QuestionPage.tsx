@@ -127,7 +127,7 @@ function QuestionPage(): React.ReactElement {
               fontSize: '15pt',
             }}
             onClick={() =>
-              handleClickAnswer('1', QuestionData[questionNo].type)
+              handleClickAnswer(1, QuestionData[questionNo].type)
             }
           >
             {QuestionData[questionNo].answera}
