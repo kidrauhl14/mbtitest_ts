@@ -19,7 +19,7 @@ function QuestionPage(): React.ReactElement {
 
   const navigate = useNavigate();
 
-  const handleClickAnswer = (ans: number, type: string) => {
+  const handleClickAnswer = (ans: number, type: number) => {
 
   const newScore = totalScore.map(s => 
     s.id === type ? {id: s.id, score: s.score + ans} : s,
