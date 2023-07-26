@@ -22,7 +22,7 @@ function QuestionPage(): React.ReactElement {
   const handleClickAnswer = (ans: number, type: number) => {
 
   const newScore = totalScore.map(s => 
-    s.id === type ? {id: s.id, score: s.score + ans} : s,
+    s.id === Number(type) ? {id: s.id, score: s.score + ans} : s,
     );
 
     setTotalScore(newScore);
