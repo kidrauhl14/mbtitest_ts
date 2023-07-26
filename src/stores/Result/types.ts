@@ -1,4 +1,4 @@
-export interface IResult = {
+export interface IResult {
     id: number;
     name: string;
     best: string;
