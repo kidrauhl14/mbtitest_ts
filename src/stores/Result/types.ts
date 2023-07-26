@@ -4,5 +4,6 @@ export interface IResult {
     best: string;
     description: string;
     image:string;
+    mbti: string; 
 
 }
