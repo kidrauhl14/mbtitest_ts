@@ -24,9 +24,9 @@ function ResultPage(): React.ReactElement {
     image: '',
     mbti: '',
   }; // 잘맞는 고양이
-  const friendCat = ResultData.find(
-    (friend) => friend.best === testResult?.mbti,
-  ); // 고양이와 잘맞는 형제묘
+  // const friendCat = ResultData.find(
+  //   (friend) => friend.best === testResult?.mbti,
+  // ); // 고양이와 잘맞는 형제묘
   const navigate = useNavigate();
 
   return (
@@ -45,7 +45,7 @@ function ResultPage(): React.ReactElement {
         </ResultImage>
         <Description>
           예비 집사님과 찰떡궁합인 고양이는 {testResult.name}입니다. <br />{' '}
-          {testResult.desc}
+          {testResult.description}
         </Description>
         <ButtonGroup style={{ marginBottom: 30 }}>
           <Button

@@ -5,5 +5,4 @@ export interface IResult {
     description: string;
     image:string;
     mbti: string; 
-
 }
