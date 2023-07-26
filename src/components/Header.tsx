@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import styled from "styled-components";
 import {ProgressBar} from "react-bootstrap";
 import { QuestionData } from '../stores/Question/QuestionData';
