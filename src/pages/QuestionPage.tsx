@@ -124,7 +124,7 @@ function QuestionPage(): React.ReactElement {
               marginRight: '20px',
               width: '45%',
               minHeight: '200px',
-              fontSize: '15pt',
+              fontSize: '15px',
             }}
             onClick={() =>
               handleClickAnswer(1, QuestionData[questionNo].type)
@@ -138,7 +138,7 @@ function QuestionPage(): React.ReactElement {
               marginRight: '20px',
               width: '45%',
               minHeight: '200px',
-              fontSize: '15pt',
+              fontSize: '15px',
             }}
             onClick={() =>
               handleClickAnswer('0', QuestionData[questionNo].type)
@@ -163,7 +163,7 @@ const Wrapper = styled.div`
 
 // const Header = styled.div`
 //   background: #ffa07a;
-//   font-size: 40pt;
+//   font-size: 40px;
 //   align-items: center;
 //   display: flex;
 //   justify-content: center;
@@ -180,7 +180,7 @@ const ContentsWrapper = styled.div`
 
 const Title = styled.div`
   margin-top: 20px;
-  font-size: 20pt;
+  font-size: 20px;
   font-family: 'Jalnan';
 `;
 
@@ -191,7 +191,7 @@ const ButtonGroup = styled.div`
   margin-top: 20px;
   padding: 20px 20px 20px 20px;
   button {
-    font-size: 18pt;
+    font-size: 18px;
     font-family: 'Jalnan';
   }
 `;

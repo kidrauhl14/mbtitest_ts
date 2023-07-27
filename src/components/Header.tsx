@@ -24,14 +24,7 @@ function Header(props:Props) {
           />
         // </ProgressWrapper>
       ) : (
-        <HeaderTitle
-          // style={{
-          //   backgroundColor: '#ffa07a',
-          //   fontFamily: 'Jalnan',
-          //   fontSize: '45pt',
-          //   height: '100px',
-          // }}
-        >
+        <HeaderTitle>
           🐱예비집사 판별기🐱
         </HeaderTitle>
       )}
@@ -48,26 +41,19 @@ const HeaderWrapper = styled.div`
 
 const HeaderTitle = styled.div`
   background-color:#ffa07a;
-  font-size: 45pt;
+  font-size: 45px;
   height: 100px;
 
 
   @media screen and (max-width: 665px) {
-    font-size: 30pt;
+    font-size: 30px;
     height: 77px;
   }
 
   @media screen and (max-width: 360px) {
     /* 텍스트를 화면에 맞게 축소시키는 스타일 */
     & > div {
-      font-size: 20pt;
+      font-size: 15px;
     }
   }
-
-  /* font-size: 40pt;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font-family: 'Jalnan';
-  padding: 20px 20px 20px 20px; */
 `;

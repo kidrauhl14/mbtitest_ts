@@ -51,15 +51,6 @@ const Wrapper = styled.div`
     height: 100vh;
 `;
 
-// const Header = styled.div`
-//     background: #ffa07a;
-//     font-size: 40pt;
-//     align-items: center;
-//     display: flex;
-//     justify-content: center;
-//     font-family: "Jalnan";
-// `;
-
 const ContentsWrapper = styled.div`
     align-items: center;
     display: flex;
@@ -70,7 +61,7 @@ const ContentsWrapper = styled.div`
 
 const Title = styled.div`
   margin-top: 20px;
-  font-size: 20pt;
+  font-size: 20px;
   font-family: 'Jalnan';
 `;
 
@@ -82,6 +73,6 @@ const LogoImage = styled.div`
 `;
 
 const Description = styled.div`
-  font-size: 20pt;
+  font-size: 20px;
   font-family: 'Jalnan';
 `;

@@ -87,7 +87,7 @@ const ContentsWrapper = styled.div`
 
 const Title = styled.div`
   margin-top: 20px;
-  font-size: 20pt;
+  font-size: 20px;
   font-family: 'Jalnan';
 `;
 
@@ -99,7 +99,7 @@ const ResultImage = styled.div`
 `;
 
 const Description = styled.div`
-  font-size: 20pt;
+  font-size: 20px;
   font-family: 'Jalnan';
 `;
 
